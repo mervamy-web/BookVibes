@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BookVibes — Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🎲 Quiz littéraire</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="recommandations.html">Recommandations</a>
+      <a href="quiz.html" aria-current="page">Quiz</a>
+      <a href="evenements.html">Événements</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Découvre ton genre idéal ✨</h2>
+      <form id="quizForm">
+        
+        <p>1️⃣ Quelle ambiance préfères-tu ?</p>
+        <label><input type="radio" name="q1" value="romance"> Douce et romantique 💖</label><br>
+        <label><input type="radio" name="q1" value="thriller"> Sombre et pleine de suspense 🔪</label><br>
+        <label><input type="radio" name="q1" value="manga"> Dynamique et surprenante 🍥</label><br>
+        <label><input type="radio" name="q1" value="bd"> Drôle et légère 🎨</label><br>
+        <label><input type="radio" name="q1" value="dark"> Intense et dramatique 🖤</label>
+
+        <p>2️⃣ Quel héros t’inspire le plus ?</p>
+        <label><input type="radio" name="q2" value="romance"> Un amoureux prêt à tout</label><br>
+        <label><input type="radio" name="q2" value="thriller"> Un enquêteur déterminé</label><br>
+        <label><input type="radio" name="q2" value="manga"> Un aventurier courageux</label><br>
+        <label><input type="radio" name="q2" value="bd"> Un enfant ou ado malicieux</label><br>
+        <label><input type="radio" name="q2" value="dark"> Un personnage torturé</label>
+
+        <p>3️⃣ Quel rythme d’histoire préfères-tu ?</p>
+        <label><input type="radio" name="q3" value="romance"> Lent et plein d’émotions</label><br>
+        <label><input type="radio" name="q3" value="thriller"> Rapide et haletant</label><br>
+        <label><input type="radio" name="q3" value="manga"> Évolutif et plein de rebondissements</label><br>
+        <label><input type="radio" name="q3" value="bd"> Court et humoristique</label><br>
+        <label><input type="radio" name="q3" value="dark"> Intense et bouleversant</label>
+
+        <br><br>
+        <button type="button" onclick="analyserQuiz()">Voir mon résultat 🚀</button>
+      </form>
+    </section>
+
+    <section id="resultat" class="card" style="display:none;">
+      <h2>🎉 Résultat</h2>
+      <p id="genre"></p>
+      <div id="suggestion"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 — BookVibes by Joigneau BAH</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
