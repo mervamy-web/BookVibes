@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La Faille — BookVibes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🔪 La Faille</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="recommandations.html">Recommandations</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <img src="https://thf.bing.com/th/id/OIP.HjFbhFgLk2SS9FVoh6lAWQAAAA?w=180&h=181&c=7&r=0&o=7&cb=thfc1&dpr=1.3&pid=1.7&rm=3" alt="La Faille" style="max-width:250px;">
+      <h2>Franck Thilliez</h2>
+      <p><strong>Genre :</strong> Thriller psychologique</p>
+      <p><strong>Éditeur :</strong> Fleuve Noir, 2023</p>
+      <p>Un suspense haletant où chaque vérité révèle une faille. Franck Thilliez, maître incontesté du thriller français, nous plonge dans une enquête sombre et captivante.</p>
+      <a href="recommandations.html" class="btn">← Retour aux recommandations</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 — BookVibes by Joigneau BAH</p>
+  </footer>
+
+</body>
+</html>
